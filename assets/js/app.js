@@ -78,7 +78,7 @@ $( document ).ready(function(){
     //API URL
     var publicKey = "dc6zaTOxFJmzC"; // Public API Key
     var limit = "10"; // Limit API to 10 gifs
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=" + limit + "&api_key=" + publicKey;
+    var queryURL = "//api.giphy.com/v1/gifs/search?q=" + animal + "&limit=" + limit + "&api_key=" + publicKey;
 
 
     // AJAX call for animal buttons
@@ -162,6 +162,7 @@ $( document ).ready(function(){
 
       // Display the Still Image
       $(gifChildren[1]).show();
+
 
       // Change Data Name to unclicked
       $(this).attr('data-name', "unclicked");
