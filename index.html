@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gif Tastic</title>
+
+    <!-- CSS Styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body id="body">
+    
+    <div id = "container">
+      <div class="row text-center">
+        <div class="col-12-lg">
+        <h1 class="header">Animal Gifs!</h1>
+      <!-- Append Animal Buttons -->
+        <div id = "animalButtons"></div>
+
+
+      <!-- Animal Inputs Form -->
+        <div id = "animal_input_box">
+          <form id = "animal_form">
+
+          <!-- Label for Form -->
+          <label for = "animalInput">Add an Animal!</label>
+
+          <br>
+
+          <!-- Input Box -->
+          <input type="text" id="animalInput">
+
+          <br>
+
+          <!-- Submit Button -->
+          <input id = "addAnimal" type="submit"> 
+
+        </form>
+        </div>
+      </div>
+  </div>
+  <br>
+    <div class="row">
+      <div class="col-12-lg text-center animals">
+      <!-- AJAX outputs of Animals -->
+      <div id = "animalImages"></div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Link in Animal API and Basic JavaScript -->
+    <script src="./assets/js/app.js"></script>
+
+  </body>
+</html>
